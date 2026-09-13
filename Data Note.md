@@ -5,9 +5,18 @@ How have surface urban heat island intensity and land surface temperature patter
 
 ## The data I need
  * Landsat 8/9 Thermal Infrared Sensor (TIRS) satellite imagery series (30m spatial resolution)      https://earthexplorer.usgs.gov
- * Sentinel-2 MSI Level-2A surface reflectance imagery for NDVI calculation https://dataspace.copernicus.eu (10meter bands)
+ * Sentinel-2 MSI Level-2A surface reflectance imagery for NDVI calculation https://dataspace.copernicus.eu (10meter bands) https://browser.dataspace.copernicus.eu/?zoom=9&lat=7.64296&lng=4.40488&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18ckAp0Arg0Gk2liK5tWA3RUNTksNdUImd3MTEkxxF9MEi%2BTP6L%2BrpO0VvnrcPpS5jac4vGv97UFGLlWkwfm65ctyU5LkGEebqMZIuSzTD3EGtlqaY7qQ96&datasetId=S2_L2A_CDAS&fromTime=2025-01-14T00%3A00%3A00.000Z&toTime=2025-01-14T23%3A59%3A59.999Z&layerId=SCENE-CLASSIFICATION
+Raster data
+
+https://browser.dataspace.copernicus.eu/?zoom=9&lat=7.6443&lng=3.49915&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BLodm10k1XEgTxMhOg7mylhfNEdhYnHAdmlGs9%2FOAi0WykZVRw06Zuo7C2IIqGTXV7I9fOuq0tswbwZU2CQGJq8qnwKQkCYhiKY%2BYdvW4gucHClPBSo7DP&datasetId=S2_L2A_CDAS&fromTime=2025-01-14T00%3A00%3A00.000Z&toTime=2025-01-14T23%3A59%3A59.999Z&layerId=SCENE-CLASSIFICATION
+
  * GRID3 settlement extent boundaries for Ibadan https://data.grid3.org
+Vector data
+https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about
+
  * OpenStreetMap (OSM) administrative boundaries and urban land-use/land-cover classifications https://download.geofabrik.de
+
+https://www.openstreetmap.org/search?query=ibadan%2C+nigeria&zoom=6&minlon=-5.383300781250001&minlat=3.337953961416485&maxlon=22.741699218750004&maxlat=14.817370620155266#map=11/7.3784/3.8972
 
 
 
@@ -48,15 +57,7 @@ I Upload
 
 Ibadan_Metropolitan_AOI.shp
 
-Landsat 8
-
-Use:
-
-LANDSAT/LC08/C02/T1_L2
-
-Landsat 9
-
-Use:
+Landsat 9 (30m)
 
 LANDSAT/LC09/C02/T1_L2
 
@@ -64,7 +65,7 @@ Sentinel
 MSI
 L2A
 Cloud cover is less than 10%
-Date: Novemebr, 2024 (Dry season for the rural and urban AOI)
+Date: November, 2024 (Dry season for the rural and urban AOI)
 Sentinel-2: L0-S2MSI2A
 Name: Sentinel-2-L0-S2MSI2A
 
