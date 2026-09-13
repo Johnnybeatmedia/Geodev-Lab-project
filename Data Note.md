@@ -18,8 +18,6 @@ https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about
 
 https://www.openstreetmap.org/search?query=ibadan%2C+nigeria&zoom=6&minlon=-5.383300781250001&minlat=3.337953961416485&maxlon=22.741699218750004&maxlat=14.817370620155266#map=11/7.3784/3.8972
 
-
-
 Summary
 The GRID3 NGA - Settlement Extents v4.1 dataset consists of a geographic representation of settlements in Nigeria. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics.
 
@@ -37,21 +35,12 @@ Center for Integrated Earth System Information (CIESIN), Columbia University. 20
 
 USGS Landsat Collection 2 Level-2 documentation
 
-and:
-
-USGS Landsat EarthExplorer access information
-
-In EarthExplorer, select:
 
 Data Sets → Landsat → Landsat Collection 2 Level-2
 
-Then select:
-
-Landsat 8-9 OLI/TIRS C2 L2
-
 USGS confirms that the Landsat 8/9 Collection 2 Level-2 product contains both Surface Reflectance and Surface Temperature.
 
-6. Set the EarthExplorer search area
+Then EarthExplorer search area
 
 I Upload
 
