@@ -4,19 +4,42 @@
 How have surface urban heat island intensity and land surface temperature patterns changed across the Ibadan metropolitan area over the past decade?
 
 ## The data I need
- * Landsat 8/9 Thermal Infrared Sensor (TIRS) satellite imagery series (30m spatial resolution)      https://earthexplorer.usgs.gov
+Where it came from with source link: 
+* Landsat 8/9 Surface Reflectance (Band 2) (30m spatial resolution)    
+Source:  https://earthexplorer.usgs.gov
+
+Source link:
  * Sentinel-2 MSI Level-2A surface reflectance imagery for NDVI calculation https://dataspace.copernicus.eu (10meter bands) https://browser.dataspace.copernicus.eu/?zoom=9&lat=7.64296&lng=4.40488&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX18ckAp0Arg0Gk2liK5tWA3RUNTksNdUImd3MTEkxxF9MEi%2BTP6L%2BrpO0VvnrcPpS5jac4vGv97UFGLlWkwfm65ctyU5LkGEebqMZIuSzTD3EGtlqaY7qQ96&datasetId=S2_L2A_CDAS&fromTime=2025-01-14T00%3A00%3A00.000Z&toTime=2025-01-14T23%3A59%3A59.999Z&layerId=SCENE-CLASSIFICATION
-Raster data
+
+Dataset Name: LC08_L2SP_191055_20260120_20260129_02_T1_SR_B2
+Geometry/ Data Type: Raster (Grid)
+Dimensions/ Features Count: 7,581
+Columns x7,741 rows (1 band)
+Pixel Resolution: 30m x 30m
+Coordinate Reference System (CRS): EPSG:32631 - WGS 84 / UTM zone 31N (Projected Coordinate System)
+
+Key Properties / Attributes:
+Units: meters
+Celestial Body: Earth
+Pixel Values: Surface Reflectance (Blue Band)
+Data Quality &Gaps: Black background/border areas outside the scene footprint contain NoData (null) values. The data has an ensemble accuracy within 2 meters
 
 https://browser.dataspace.copernicus.eu/?zoom=9&lat=7.6443&lng=3.49915&themeId=DEFAULT-THEME&visualizationUrl=U2FsdGVkX1%2BLodm10k1XEgTxMhOg7mylhfNEdhYnHAdmlGs9%2FOAi0WykZVRw06Zuo7C2IIqGTXV7I9fOuq0tswbwZU2CQGJq8qnwKQkCYhiKY%2BYdvW4gucHClPBSo7DP&datasetId=S2_L2A_CDAS&fromTime=2025-01-14T00%3A00%3A00.000Z&toTime=2025-01-14T23%3A59%3A59.999Z&layerId=SCENE-CLASSIFICATION
 
+Dataset 2
+OpenStreetMap Vector Layer (QuickOSM)
+
  * GRID3 settlement extent boundaries for Ibadan https://data.grid3.org
-Vector data
+
 https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about
 
  * OpenStreetMap (OSM) administrative boundaries and urban land-use/land-cover classifications https://download.geofabrik.de
 
 https://www.openstreetmap.org/search?query=ibadan%2C+nigeria&zoom=6&minlon=-5.383300781250001&minlat=3.337953961416485&maxlon=22.741699218750004&maxlat=14.817370620155266#map=11/7.3784/3.8972
+
+AOI: Ibadan Metropolises with 6 features and 9 columns ( fid, ID_0, ISO, NAME_0, ID_0, NAME_1, ID_2, NAME_2, TYPE_2,)
+Geometry type: Vector
+
 
 Summary
 The GRID3 NGA - Settlement Extents v4.1 dataset consists of a geographic representation of settlements in Nigeria. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics.
@@ -35,18 +58,15 @@ Center for Integrated Earth System Information (CIESIN), Columbia University. 20
 
 USGS Landsat Collection 2 Level-2 documentation
 
-
-Data Sets → Landsat → Landsat Collection 2 Level-2
-
-USGS confirms that the Landsat 8/9 Collection 2 Level-2 product contains both Surface Reflectance and Surface Temperature.
-
-Then EarthExplorer search area
+The EarthExplorer search area
 
 I Upload
 
 Ibadan_Metropolitan_AOI.shp
 
-Landsat 9 (30m)
+Landsat 8
+
+LANDSAT/LC08/C02/T1_L2
 
 LANDSAT/LC09/C02/T1_L2
 
