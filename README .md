@@ -1,8 +1,8 @@
 # Babayemi John Ayantunji Pod 3
 ## Month 1
-How have surface urban heat island intensify and land surface temperature patterns change across the Ibadan Metropolitan area over the past decade?
-Built over twelve months with GoeDev Lab Africa, Cohort One.
-See project-brief.md for the full brief.
+# How have surface urban heat island intensify and land surface temperature patterns change across the Ibadan Metropolitan area over the past decade?
+# Built over twelve months with GoeDev Lab Africa, Cohort One.
+# See project-brief.md for the full brief.
 # Week 1: The SUHI and LST patterns changes across Ibadan between Nov 2024 and Jan 2026. project-brief.md
 # Week 2: Data notes describes what was downloaded, settlement extent, Ibadan AOI and LST for Nov 2024 and Jan 2026. Data Note.md
 # Week 3: The data was prepared on QGIS, features of about 2,504,642 settlement extent, Geo-referenced, filtered. Data Preparation and Quality Checks.md
@@ -14,3 +14,4 @@ Development environment and early Python
 check.py prints the pandas version.
 # Week 7: analyse.py reads wards.csv.
 converts each area and classifies each ward
+# Week 8: inspect_data.py summarises depth and yield in my Oyo LST2024 and LST 2026 data.
