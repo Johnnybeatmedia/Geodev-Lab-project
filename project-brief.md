@@ -1,7 +1,7 @@
 # My project brief
 
 ## The question
-How have surface urban heat island intensity and land surface temperature patterns changed across the Ibadan metropolitan area over the past decade?
+How have surface urban heat island intensity and land surface temperature patterns changed across the Ibadan metropolitan area between 2024 and 2026?
 
 ## The data I need
  * Landsat 8/9 Thermal Infrared Sensor (TIRS) satellite imagery series (30m spatial resolution)      https://earthexplorer.usgs.gov
