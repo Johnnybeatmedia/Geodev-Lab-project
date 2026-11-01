@@ -15,3 +15,6 @@ check.py prints the pandas version.
 # Week 7: analyse.py reads wards.csv.
 converts each area and classifies each ward
 # Week 8: inspect_data.py summarises depth and yield in my Oyo LST2024 and LST 2026 data.
+# Week 9: Refactored 'summary.py' script to modularise data loading, value cleaning, and statistical summaries for zonal LST data.
+### Month 2 reflection
+This month, break large scripts into small, single-purpose functions finally clicked for me, making code refactoring much cleaner to write and test. Writing complex list comprehensive with line filtering is still a bit fuzzy when handling multiple edge cases. Running the capstone summary script on my Month 1 land surface temperature dataset ('LST2024_zonal_Sta.csv'and 'LST2026_Zonal_Sta.csv') clearly revealed the overall count, minimum, maximum, and mean values across the region.
