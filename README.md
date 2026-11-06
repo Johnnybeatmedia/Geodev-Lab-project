@@ -18,3 +18,5 @@ converts each area and classifies each ward
 # Week 9: Refactored 'summary.py' script to modularise data loading, value cleaning, and statistical summaries for zonal LST data.
 ### Month 2 reflection
 This month, break large scripts into small, single-purpose functions finally clicked for me, making code refactoring much cleaner to write and test. Writing complex list comprehensive with line filtering is still a bit fuzzy when handling multiple edge cases. Running the capstone summary script on my Month 1 land surface temperature dataset ('LST2024_zonal_Sta.csv'and 'LST2026_Zonal_Sta.csv') clearly revealed the overall count, minimum, maximum, and mean values across the region.
+## Month 3: Geospatial Python and automation
+- Week 10: Geopandas. Loaded, Checked, Joined mapped by region layer in code
